@@ -1,0 +1,8 @@
+#context-sendaudio,
+#context-sendvideo,
+#context-sendimage,
+#context-sep-sendpagetodevice,
+#context-sep-sendlinktodevice,
+#context_sendTabToDevice_separator,
+#pageAction-panel-emailLink
+    { display: none !important; }

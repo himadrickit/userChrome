@@ -1,0 +1,3 @@
+#urlbar menuitem[cmd="cmd_redo"] + menuseparator,
+menuseparator.menuseparator-add-engine
+    { display:none !important; }

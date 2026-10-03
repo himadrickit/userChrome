@@ -1,0 +1,14 @@
+/* conjusted toolbar */
+:root{
+	--arrowpanel-menuitem-padding: 2px !important;
+	--arrowpanel-border-radius: 0 !important;
+	--arrowpanel-menuitem-border-radius: 0 !important;
+	--toolbarbutton-border-radius: 0 !important;
+	--toolbar-field-focus-border-color: transparent !important;
+	--chrome-block-radius: 0 !important;
+	--urlbar-border-radius: 0 !important;
+	--panel-box-shadow-margin: 0 !important;
+	--toolbarbutton-padding-inner: 0.3em !important;
+}
+toolbar .toolbarbutton-1 { padding: 0 0 !important; }
+#tabbrowser-tabs:not([noshadowfortests]) .tab-background:is([selected], [multiselected]) { box-shadow: none !important; }

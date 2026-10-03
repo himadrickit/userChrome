@@ -1,0 +1,16 @@
+#tabContextMenu #context_ungroupTab + menuseparator,
+#tabContextMenu #context_playSelectedTabs,
+#tabContextMenu #context_toggleMuteSelectedTabs,
+#tabContextMenu #context_pinSelectedTabs,
+#tabContextMenu #context_unpinSelectedTabs,
+#tabContextMenu #context_duplicateTabs,
+#tabContextMenu #context_duplicateTabs + menuseparator,
+#tabContextMenu #context_bookmarkSelectedTabs,
+#tabContextMenu #context_bookmarkTab,
+#tabContextMenu #context_dummy,
+#tabContextMenu #context_selectAllTabs + menuseparator,
+#tabContextMenu #context_closeDuplicateTabs,
+#tabContextMenu #context_undoCloseTab + menuseparator,
+#tabContextMenu #context_fullscreenAutohide,
+#tabContextMenu #context_fullscreenExit
+    { display:none !important; }

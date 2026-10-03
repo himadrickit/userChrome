@@ -1,0 +1,22 @@
+#toolbar-context-menu .customize-context-reportExtension,
+#toolbar-context-menu .customize-context-reportExtension
+    + menuseparator,
+#toolbar-context-menu #toolbarDownloadsAnchorMenuSeparator,
+#toolbar-context-menu #toolbar-context-openANewTab,
+#toolbar-context-menu #toolbarNavigatorItemsMenuSeparator,
+#toolbar-context-menu #toolbar-context-reloadSelectedTab,
+#toolbar-context-menu #toolbar-context-reloadSelectedTabs,
+#toolbar-context-menu #toolbar-context-bookmarkSelectedTab,
+#toolbar-context-menu #toolbar-context-bookmarkSelectedTabs,
+#toolbar-context-menu #toolbar-context-selectAllTabs,
+#toolbar-context-menu #toolbar-context-undoCloseTab,
+#toolbar-context-menu #tabbarItemsMenuSeparator,
+#toolbar-context-menu #toolbar-context-customize-sidebar,
+#toolbar-context-menu #sidebarRevampSeparator,
+#toolbar-context-menu
+    menuitem[data-l10n-id="toolbar-context-menu-bookmarks-toolbar-always-show-2"],
+#toolbar-context-menu                                                                                          
+       menuitem[data-l10n-id="toolbar-context-menu-bookmarks-toolbar-on-new-tab-2"],
+#toolbar-context-menu #viewToolbarsMenuSeparator,
+#toolbar-context-menu menuitem[data-l10n-id="full-screen-exit"]
+    { display:none !important; }

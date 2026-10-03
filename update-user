@@ -1,0 +1,1 @@
+curl --progress-bar -o user.js https://raw.githubusercontent.com/HimadriChakra12/eaterfox/refs/heads/master/dist/user.js

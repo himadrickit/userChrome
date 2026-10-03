@@ -1,0 +1,36 @@
+@import url(theme/urlbar.css);
+@import url(theme/extension.css);
+@import url(theme/verticaltabs.css);
+@import url(theme/menu.css);
+@import url(theme/titlebar.css);
+@import url(theme/toolbar.css);
+@import url(theme/autohide.css);
+
+/*
+@import url(theme/numbertabs.css);
+*/
+
+*{
+	border-radius: 0px !important;
+	font-family: 'Jetbrains Mono' !important;
+}
+
+menupopup menuitem, menupopup menu {
+    list-style-image: none !important;
+    -moz-image-region: auto !important;
+    -moz-appearance: none !important;
+    padding-inline-start: 0 !important; /* Remove extra space where icon was */
+}
+
+#identity-icon-box.identity-box-button,
+#sidebar-button,
+#back-button,
+#forward-button,
+#reload-button,
+#stop-button,
+#home-button,
+#library-button,
+#tabs-newtab-button,
+#private-browsing-indicator-with-label {
+	display: none;
+}

@@ -1,0 +1,28 @@
+section[aria-label="User status and settings"]{
+    position: absolute;
+    height: 54px;
+}
+
+section[aria-label="User status and settings"]:has([class="rtcConnectionStatusWrapper__06d62"]):hover{
+    height: 150px;
+}
+
+toolbar .toolbarbutton-1 { padding: 0 0 !important; }
+#downloads-button {
+	margin-left: 2px !important;
+}
+#PanelUI-menu-button {
+	padding: 0 4px 0 0 !important;
+}
+toolbarbutton, toolbaritem {
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+#titlebar {
+	--proton-tab-block-margin: 0 !important;
+	--tab-block-margin: 0 !important;
+}
+/* remove titlebar spacers */
+.titlebar-spacer { display: none !important; }
+

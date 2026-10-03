@@ -1,0 +1,6 @@
+#sidebar-close,
+#sidebar-switcher-target,
+#sidebar-switcher-bookmarks,
+#sidebar-switcher-tabs + toolbarseparator,
+#sidebar-reverse-position + toolbarseparator
+    { display:none !important; }

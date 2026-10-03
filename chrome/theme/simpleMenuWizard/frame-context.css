@@ -1,0 +1,7 @@
+#open-frame-sep,
+#context-reloadframe + menuseparator,
+#context-saveframe + menuseparator,
+#context-printframe + menuseparator,
+#context-take-frame-screenshot + menuseparator,
+#spell-separator
+    { display:none !important; }

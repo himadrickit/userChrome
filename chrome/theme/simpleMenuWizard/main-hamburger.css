@@ -1,0 +1,36 @@
+#appMenu-proton-update-banner,
+#appMenu-fxa-separator,
+#appMenu-new-window-button2,
+#appMenu-new-private-window-button2
+       + toolbarseparator,
+#panelMenuBookmarkThisPage,
+#panelMenu_searchBookmarks,
+#panelMenu_viewBookmarksToolbar,
+#panelMenu_viewBookmarksToolbar + toolbarseparator,
+#appMenu-history-button,
+#appMenuRestoreSession + toolbarseparator,
+#appMenuClearRecentHistory + toolbarseparator,
+#appMenu_historyMenu + toolbarseparator,
+#appMenu-passwords-button,
+#appMenu-extensions-themes-button,
+#appMenu-extensions-themes-button
+       + toolbarseparator,
+#appMenu-zoom-controls,
+#appMenu-zoom-controls + toolbarseparator,
+#appmenu-moreTools-button + toolbarseparator,
+#appmenu-developer-tools-view
+       > toolbarbutton[key="key_viewSource"]
+       + toolbarbutton,
+#appMenu-help-button2,
+#PanelUI-helpItems > #appMenu_menu_openHelp,
+#PanelUI-helpItems > #appMenu_feedbackPage,
+#PanelUI-helpItems > #appMenu_helpSafeMode,
+#PanelUI-helpItems > #appMenu_troubleShooting,
+#PanelUI-helpItems > #appMenu_help_reportSiteIssue,
+#PanelUI-helpItems
+       > #appMenu_menu_HelpPopup_reportPhishingtoolmenu,
+#PanelUI-helpItems > #appMenu_helpSwitchDevice,
+#PanelUI-helpItems > #appMenu_aboutName,
+#appMenu-help-button2 + toolbarseparator,
+#appMenu-quit-button2
+    { display:none !important; }

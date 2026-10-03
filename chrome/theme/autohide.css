@@ -1,0 +1,100 @@
+/* --- AUTOHIDE NAVBAR (right-docked, narrow) ------------ */
+
+@media (-moz-platform: linux) {
+    :root {
+        --uc-navbar-transform: calc(0px - 24px);
+        --uc-navbar-width: 800px; /* tweak to taste */
+        --uc-navbar-hover-width: 80%; /* tweak to taste */
+    }
+
+    #navigator-toolbox > div {
+        display: contents;
+    }
+
+    #nav-bar {
+        width: var(--uc-navbar-width) !important;
+        max-width: var(--uc-navbar-width) !important;
+        margin-inline-start: auto !important;
+    }
+
+    /* Expand when URL bar / anything inside nav-bar is focused */
+    #nav-bar:focus-within {
+        width: var(--uc-navbar-hover-width) !important;
+        max-width: var(--uc-navbar-hover-width) !important;
+        margin-inline-start: auto !important;
+    }
+
+    :root[sessionrestored] :where(
+    #nav-bar,
+    #PersonalToolbar,
+    #tab-notification-deck,
+    .global-notificationbox
+    ) {
+        transform: translateY(var(--uc-navbar-transform));
+    }
+
+    :root:is([customizing], [chromehidden*="toolbar"]) :where(
+    #nav-bar,
+    #PersonalToolbar,
+    #tab-notification-deck,
+    .global-notificationbox
+    ) {
+        transform: none !important;
+        opacity: 1 !important;
+        pointer-events: auto !important;
+    }
+
+    /* Reveal on hover — same triggers as before, now also re-enable clicks */
+    #titlebar:hover ~ .browser-toolbar,
+    .browser-titlebar:hover ~ :is(#nav-bar, #PersonalToolbar),
+    #nav-bar:hover,
+    #nav-bar:hover + #PersonalToolbar {
+        transform: translateY(0);
+        opacity: 1;
+        pointer-events: auto;
+    }
+
+    #mainPopupSet:has(> [panelopen]:not(
+    #ask-chat-shortcuts,
+    #selection-shortcut-action-panel,
+    #chat-shortcuts-options-panel,
+    #tab-preview-panel
+    )) ~ #navigator-toolbox > .browser-toolbar {
+        transform: translateY(0);
+        opacity: 1;
+        pointer-events: auto;
+    }
+
+    #nav-bar:not([customizing]) {
+        opacity: 0;
+        position: relative;
+        z-index: 2;
+    }
+
+    #nav-bar:not([customizing]):hover{
+        opacity: 1;
+    }
+
+    #titlebar {
+        position: relative;
+        z-index: 1;
+    }
+
+    #navigator-toolbox,
+    #sidebar-box,
+    #sidebar-main,
+    #sidebar-splitter,
+    #tabbrowser-tabbox {
+        z-index: auto !important;
+    }
+
+
+    /* Move up the content view — only under the narrow nav-bar's own column,
+    not the full width, so it stops shifting content behind the tab strip */
+:root[sessionrestored]:not([chromehidden~="toolbar"]):not([inFullscreen]) > body > #browser {
+    margin-top: -36px !important;
+}
+}
+
+@media (-moz-platform: windows) {
+}

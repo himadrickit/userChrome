@@ -1,0 +1,10 @@
+#context-openlinkinusercontext-menu,
+#context-openlinkprivate,
+#context-sep-open,
+#context-savelinktopocket,
+#context-copyemail,
+#context-sep-sendlinktodevice,
+#context-sep-copylink,
+#frame-sep,
+#context-inspect
+    { display:none !important; }

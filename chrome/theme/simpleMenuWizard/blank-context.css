@@ -1,0 +1,12 @@
+#context-back,
+#context-forward,
+#context-reload,
+#context-stop,
+#context-sep-navigation,
+#context-sep-selectall,
+#context-sep-screenshots,
+#context-media-eme-separator,
+#context-pocket,
+#context-inspect,
+#context-navigation
+    { display:none !important; }

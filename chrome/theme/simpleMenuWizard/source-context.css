@@ -1,0 +1,10 @@
+#context-sep-navigation,
+#context-viewsource-goToLine,
+#context-viewsource-wrapLongLines,
+#context-viewsource-highlightSyntax,
+#context-sep-viewsource-commands,
+#context-sep-selectall,
+#context-sep-screenshots,
+#context-viewsource,
+#context-inspect
+    { display:none !important; }

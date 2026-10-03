@@ -1,0 +1,10 @@
+#new-tab-button-popup > menuitem[accesskey="N"],
+#new-tab-button-popup > menuseparator:nth-of-type(1),
+#new-tab-button-popup > menuitem[data-usercontextid="1"],
+#new-tab-button-popup > menuitem[data-usercontextid="2"],
+#new-tab-button-popup > menuitem[data-usercontextid="3"],
+#new-tab-button-popup > menuitem[data-usercontextid="4"],
+#new-tab-button-popup > menuseparator:nth-of-type(2),
+#new-tab-button-popup >
+       menuitem[command="Browser:OpenAboutContainers"]
+    { display:none !important; }

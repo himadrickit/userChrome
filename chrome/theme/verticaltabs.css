@@ -1,0 +1,61 @@
+#tabbrowser-arrowscrollbox[orient="vertical"] {
+  --tab-min-height: 24px;
+  --tab-block-margin: 0;
+  --border-radius-medium: 2px;
+  .tabbrowser-tab {
+    padding-block: 0;
+    .tab-close-button {
+      height: 20px;
+      width: 20px;
+    }
+  }
+  .tab-text.tab-label {
+    font-size: 12px;
+  }
+  tab-group {
+    margin: 2px 0;
+    .tab-group-label-container {
+      margin-block: 0 4px;
+    }
+    .tabbrowser-tab:first-of-type {
+      margin-top: -4px !important;
+    }
+    .tabbrowser-tab:last-of-type {
+      margin-bottom: 4px !important;
+    }
+  }
+
+  /* Below moves close button to the left of the tab, remove if not needed. */
+  .tabbrowser-tab {
+    .tab-close-button {
+      position: absolute;
+      left: 10px;
+    }
+  }
+  .tabbrowser-tab:hover,
+  .tabbrowser-tab[selected] {
+    .tab-icon-stack {
+      visibility: hidden;
+    }
+  }
+  #TabsToolbar {
+      min-height: 28px !important;
+  }
+
+  .tabbrowser-tab:not([pinned]) {
+      max-height: 28px !important;
+  }
+
+  .tabbrowser-tab:not([pinned]) .tab-icon-image {
+      width: 12px !important;
+      height: 12px !important;
+      margin: 0 !important;
+      margin-right: 7px !important;
+  }
+
+  .tabbrowser-tab:is([pinned]) .tab-icon-image {
+      width: 12px !important;
+      height: 12px !important;
+      margin: 0 !important;
+  }
+}
