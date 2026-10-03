@@ -4,7 +4,7 @@ if (-not (Test-Path -LiteralPath $destpath)) {
     New-Item -ItemType Directory -Path $destpath -Force | Out-Null
 }
 
-Invoke-WebRequest  -Uri "https://raw.githubusercontent.com/HimadriChakra12/.dotfiles/refs/heads/master/firefox/policies.json"  -OutFile "$destpath\policies.json"
+Copy-Item "$pwd/policies.json" "$destpath\policies.json"
 
 Write-Host "Select Firefox Profile:"
 
